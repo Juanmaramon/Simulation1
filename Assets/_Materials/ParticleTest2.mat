@@ -62,7 +62,7 @@ Material:
     - _DstBlend: 0
     - _GlossMapScale: 1
     - _Glossiness: 0.86
-    - _Glossiness2: 0.567
+    - _Glossiness2: 0.817
     - _GlossyReflections: 1
     - _Metallic: 0.579
     - _Metallic2: 0.601
@@ -80,6 +80,6 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 0.47983345, g: 0.7555222, b: 0.9191176, a: 1}
-    - _Color2: {r: 0.2941176, g: 1, b: 0.9707909, a: 1}
-    - _EdgeColor: {r: 0.16911763, g: 0.55304265, b: 1, a: 1}
+    - _Color2: {r: 0.553, g: 1, b: 0.9707909, a: 1}
+    - _EdgeColor: {r: 0.21985283, g: 0.90090036, b: 1.3, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}

@@ -30,9 +30,9 @@ class Voxelizer : MonoBehaviour
         var fwd = transform.forward / transform.localScale.z;
         var dist = Vector3.Dot(fwd, transform.position);
         var vector = new Vector4(fwd.x, fwd.y, fwd.z, dist);
-
-        _sheet.SetVector("_EffectVector", vector * Time.timeSinceLevelLoad);
-
+        //var nan = Random.Range(0.3f, 0.6f);
+        _sheet.SetVector("_EffectVector", vector); //) * nan); //Time.timeSinceLevelLoad);
+        //Debug.Log(nan);
         if (_linkedRenderers != null)
             foreach (var r in _linkedRenderers) r.SetPropertyBlock(_sheet);
     }
